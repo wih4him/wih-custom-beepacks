@@ -4,32 +4,32 @@ Five two-function fizzlers for BEEmod (BEE2) and Portal 2. The "gaps" they fill 
 
 ![The ten fizzlers](images/icons.png)
 
-Each item holds two fizzlers. The editor dropdown picks the one it starts as, input B swaps it to the other while you play, and input A switches it on and off.
+Each item holds two fizzlers. The editor dropdown picks which function the item starts as, input B swaps the item to its other function while you play, and input A turns the field on and off.
 
 | Item | First function | Second function |
 |---|---|---|
-| Portal Wiper / Portal Shield | **Portal Wiper** (magenta, with a fractal pattern): walk through it and your open portals close, and in co-op the other player's too. You, cubes, turrets and portal shots pass. | **Portal Shield** (burgundy, with slow violet swirls): it stops portal shots and nothing else. |
+| Portal Wiper / Portal Shield | **Portal Wiper** (magenta, with a fractal pattern): walk through the field and your open portals close, and in co-op the other player's too. You, cubes, turrets and portal shots pass. | **Portal Shield** (burgundy, with slow violet swirls): the field stops portal shots and nothing else. |
 | Personnel Restrictor / Physics Gate | **Personnel Restrictor** (silver, with gold strands): only you are stopped. Cubes, turrets, portals and portal shots pass. | **Physics Gate** (aquamarine, with teal strands and slow turquoise spirals): cubes, turrets and portal shots are stopped without being fizzled. You and your portals pass. |
 | Solid-Matter Dissolver / Lethal Threshold Limiter | **Solid-Matter Dissolver** (red laser beams with orange sparks): you die on touch, cubes and turrets are fizzled, and portals and portal shots pass. | **Lethal Threshold Limiter** (laser beams over a burgundy field): you die on touch, cubes and turrets pass, and portal shots are stopped. |
-| Phyzzling Portal-Grater / Soft-Reset Boundary | **Phyzzling Portal-Grater** (dark seafoam, with fractal spirals and a sliding mesh): cubes and turrets are stopped at the field, walking through it closes your open portals, and you and your portal shots pass. | **Soft-Reset Boundary** (magenta, over an orange particle field): cubes and turrets are fizzled, walking through it closes your open portals, and you and your portal shots pass. |
-| Fizzle-Fence / Thermo-Barrier | **Fizzle-Fence** (white-blue bars): you are stopped at it, cubes and turrets that touch it are fizzled, and portals and portal shots pass. | **Thermo-Barrier** (a red grate): you die on touch, cubes and turrets are stopped at it, and portals and portal shots pass. |
+| Phyzzling Portal-Grater / Soft-Reset Boundary | **Phyzzling Portal-Grater** (dark seafoam, with fractal spirals and a sliding mesh): cubes and turrets are stopped at the field, walking through the field closes your open portals, and you and your portal shots pass. | **Soft-Reset Boundary** (magenta, over an orange particle field): cubes and turrets are fizzled, walking through the field closes your open portals, and you and your portal shots pass. |
+| Fizzle-Fence / Thermo-Barrier | **Fizzle-Fence** (white-blue bars): you are stopped at the field, cubes and turrets that touch the field are fizzled, and portals and portal shots pass. | **Thermo-Barrier** (a red grate): you die on touch, cubes and turrets are stopped at the field, and portals and portal shots pass. |
 
 ## Options (right-click a placed fizzler)
 
-- **Start Enabled:** the field is on when the map starts. Untick it and the field starts off until input A turns it on.
-- **Start Open:** pellets bounce off the Portal Wiper, Portal Shield, Personnel Restrictor and Lethal Threshold Limiter, but only while the fizzler is on and its field is visible. While it is off, pellets pass as usual. The other six already stop or destroy pellets.
-- **Start Reversed:** the field also stops gel and glows in its own colour, but only while the fizzler is on and its field is visible. While it is off, gel passes and there is no glow.
+- **Start Enabled:** with Start Enabled ticked, the field is on when the map starts. With Start Enabled unticked, the field starts off until input A turns the field on.
+- **Start Open:** with Start Open ticked, pellets bounce off the Portal Wiper, Portal Shield, Personnel Restrictor and Lethal Threshold Limiter, but only while the field is on and visible. The other six fizzlers already stop or destroy pellets.
+- **Start Reversed:** with Start Reversed ticked, the field also stops gel and glows in its own colour, but only while the field is on and visible.
 
 ## Inputs and outputs
 
 - **Input A** switches the field on and off. A plain wire (from a button or an antenna, for example) goes to input A.
-- **Input B** swaps the function. Wire it through an item that sends to input B, such as BEEmod's SR strip.
-- **Fizzler Output Relay:** place one on a fizzler to wire it to other items. The output is on while the field is on. While it is on, something crossing the field switches the output off for a moment; each item's description lists which crossings count. The relay's Timer sets how long that moment lasts, and its countdown sign counts down while the output is off.
+- **Input B** swaps the function. Wire input B through an item that sends to input B, such as BEEmod's SR strip.
+- **Fizzler Output Relay:** place one on a fizzler to wire that fizzler to other items. The relay's output is on while the field is on. While the field is on, something crossing the field switches the relay's output off for a moment; each item's description lists which crossings count. The relay's Timer sets how long that moment lasts, and its countdown sign counts down while the relay's output is off.
 
 ## Install
 
 1. Download `WIH_FillingGapsFizzlers.bee_pack` from the Releases page. The unpacked contents are in `packages/FillingGapsFizzlers/`.
-2. Put it in BEEmod's `packages` folder.
+2. Put the `.bee_pack` file in BEEmod's `packages` folder.
 3. Restart BEEmod. The five items have the tag "Fizzlers".
 
 Made and tested with BEEmod 4.46.1. The Fizzler Output Relay is one of BEEmod's own standard packages. Portal 2 is required.
