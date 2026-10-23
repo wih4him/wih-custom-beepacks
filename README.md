@@ -1,6 +1,6 @@
 # Filling Gaps Fizzlers
 
-Five two-function fizzlers for BEEmod (BEE2) and Portal 2. They fill the gaps between the stock Emancipation Grill and Discouragement Field, giving ten fizzlers in all.
+Five two-function fizzlers for BEEmod (BEE2) and Portal 2. The "gaps" they fill are the remaining combinations of basic custom fizzler types, based on all the custom fizzlers the community has made so far. Together, their ten fizzlers complete the relevant combinations in the original chart (see [Where they fit](#where-they-fit)).
 
 ![The ten fizzlers](images/icons.png)
 
@@ -17,8 +17,8 @@ Each item holds two fizzlers. The editor dropdown picks the one it starts as, in
 ## Options (right-click a placed fizzler)
 
 - **Start Enabled:** the field is on when the map starts. Untick it and the field starts off until input A turns it on.
-- **Start Open:** while the field is on, pellets bounce off the Portal Wiper, Portal Shield, Personnel Restrictor and Lethal Threshold Limiter. The other six already stop or destroy pellets.
-- **Start Reversed:** while it is on, the field also stops gel and glows in its own colour.
+- **Start Open:** pellets bounce off the Portal Wiper, Portal Shield, Personnel Restrictor and Lethal Threshold Limiter, but only while the fizzler is on and its field is visible. While it is off, pellets pass as usual. The other six already stop or destroy pellets.
+- **Start Reversed:** the field also stops gel and glows in its own colour, but only while the fizzler is on and its field is visible. While it is off, gel passes and there is no glow.
 
 ## Inputs and outputs
 

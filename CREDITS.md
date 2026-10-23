@@ -2,7 +2,7 @@
 
 - **Filling Gaps Fizzlers** by wih4him.
 - **FourthReaper:** the editor models are recoloured copies of FourthReaper's Force Deflection Field editor model, and the Fizzle-Fence's bars and the Thermo-Barrier's grate use his Force Deflection Field material, recoloured. Both come from FourthReaper's Fizzlers (FR Fizzlers), one of BEEmod's own packages. With thanks.
-- **The orange particle** itself is Valve's own Emancipation Grill particle (`portal_cleanser`) from Portal 2, recoloured orange. The Thermo-Barrier's antiphase noise is Valve's `fizzler_noise` texture shifted by half.
+- **The orange particle** is Valve's own Emancipation Grill particle (`portal_cleanser`) from Portal 2, recoloured orange. The Thermo-Barrier's antiphase noise is Valve's `fizzler_noise` texture shifted by half.
 - **The palette icons** are drawn over BEEmod's stock fizzler icon (a render of Valve's fizzler model).
 - **BEEmod** (BEE2.4) by the BEEmod team: the item format, the Fizzler Output Relay and the SR strip these items work with.
 - **Portal 2** by Valve.
