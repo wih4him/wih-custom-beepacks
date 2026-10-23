@@ -38,8 +38,8 @@ Each item holds two fizzlers. The editor dropdown picks which function the item 
 ## Install
 
 1. Download [`WIH_FillingGapsFizzlers.bee_pack`](https://github.com/wih4him/wih-custom-beepacks/releases/latest/download/WIH_FillingGapsFizzlers.bee_pack) from the [Releases page](https://github.com/wih4him/wih-custom-beepacks/releases/latest). The green Code > Download ZIP button gives the source instead, which BEEmod can't load as it is. The unpacked contents are in `packages/FillingGapsFizzlers/`.
-2. Put the `.bee_pack` file in BEEmod's `packages` folder as it is. Don't unzip it.
-3. Restart BEEmod. The five items have the tag "Fizzlers".
+2. Put the `.bee_pack` file in BEEmod's `packages` folder as it is. Don't unzip it. If an older Filling Gaps Fizzlers file is there, remove it first: BEEmod will not load two copies.
+3. Restart BEEmod. The five items have the tag "Fizzlers". In BEEmod's item list they come right after Portal 2's own items.
 
 Made and tested with BEEmod 4.46.1. The Fizzler Output Relay is one of BEEmod's own standard packages. Portal 2 is required.
 
