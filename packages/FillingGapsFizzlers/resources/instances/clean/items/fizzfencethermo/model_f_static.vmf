@@ -1,0 +1,167 @@
+versioninfo
+
+{
+
+	"editorversion" "400"
+
+	"editorbuild" "8419"
+
+	"mapversion" "45"
+
+	"formatversion" "100"
+
+	"prefab" "0"
+
+}
+
+visgroups
+
+{
+
+}
+
+viewsettings
+
+{
+
+	"bSnapToGrid" "1"
+
+	"bShowGrid" "1"
+
+	"bShowLogicalGrid" "0"
+
+	"nGridSpacing" "64"
+
+	"bShow3DGrid" "0"
+
+}
+
+world
+
+{
+
+	"id" "1"
+
+	"mapversion" "45"
+
+	"classname" "worldspawn"
+
+	"detailmaterial" "detail/detailsprites"
+
+	"detailvbsp" "detail.vbsp"
+
+	"maxblobcount" "250"
+
+	"maxpropscreenwidth" "-1"
+
+	"skyname" "sky_black_nofog"
+
+}
+
+entity
+
+{
+
+	"id" "6"
+
+	"classname" "prop_static"
+
+	"angles" "0 180 90"
+
+	"disableselfshadowing" "0"
+
+	"disablevertexlighting" "0"
+
+	"drawinfastreflection" "1"
+
+	"fademindist" "-1"
+
+	"fadescale" "1"
+
+	"ignorenormals" "0"
+
+	"model" "models/bee2/props_ingame/cust_fizz_static.mdl"
+
+	"renderamt" "255"
+
+	"rendercolor" "200 215 255"
+
+	"screenspacefade" "0"
+
+	"skin" "0"
+
+	"solid" "6"
+
+	"origin" "0 0 0"
+
+	editor
+
+	{
+
+		"color" "255 255 0"
+
+		"visgroupshown" "1"
+
+		"visgroupautoshown" "1"
+
+		"logicalpos" "[0 0]"
+
+	}
+
+}
+
+entity
+{
+	"id" "9001"
+	"_cone" "0"
+	"_inner_cone" "0"
+	"_light" "210 225 255 200"
+	"angles" "0 0 0"
+	"brightness" "$glowb"
+	"classname" "light_dynamic"
+	"distance" "240"
+	"origin" "0 0 64"
+	"pitch" "-90"
+	"spawnflags" "0"
+	"spotlight_radius" "64"
+	"style" "0"
+	"targetname" "glow"
+}
+cameras
+
+{
+
+	"activecamera" "-1"
+
+}
+
+cordons
+
+{
+
+	"active" "0"
+
+}
+entity
+{
+	"id" "9002"
+	"InitialValue" "$start_reversed"
+	"classname" "logic_branch"
+	"origin" "0 0 96"
+	"targetname" "glowon"
+	connections
+	{
+		"OnFalse" "glow,TurnOff,,0.05,-1"
+	}
+}
+entity
+{
+	"id" "9003"
+	"classname" "logic_auto"
+	"origin" "0 0 104"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "glowon,Test,,0,-1"
+	}
+}

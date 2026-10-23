@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$surfaceprop "hard_light_bridge"
+$basetexture "Tools/toolsplayerclip"
+%compilenodraw 1
+%playerclip 1
+}

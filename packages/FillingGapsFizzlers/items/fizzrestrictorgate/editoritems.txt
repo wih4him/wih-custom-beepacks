@@ -1,0 +1,180 @@
+"Item"
+	{
+	"Type"			"WIH_FIZZRESTRICTORGATE"
+	"ItemClass"		"ItemBarrierHazard"
+	"Editor"
+		{
+		"SubTypeProperty" "HazardType"
+		"SubType"
+			{
+			"Name"  "Personnel Restrictor"
+			"Model"	"bee2/clean/wih_fillinggaps_faces_rgr.mdl"
+			"Palette"
+				{
+				"Tooltip"		"Personnel Restrictor"
+				"Image"			"palette/clean/fizzrestrictorgate_r"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Physics Gate"
+			"Model"	"bee2/clean/wih_fillinggaps_faces_rgg.mdl"
+			"Palette"
+				{
+				"Tooltip"		"Physics Gate"
+				"Image"			"palette/clean/fizzrestrictorgate_g"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"MovementHandle"		"HANDLE_6_POSITIONS"
+		"DesiredFacing"			"DESIRES_HORIZONTAL"
+		}
+	"Properties"
+		{
+		"ConnectionCount"
+			{
+			"DefaultValue"		"0"
+			"Index"				"1"
+			}
+		"StartEnabled"
+			{
+			"DefaultValue"		"1"
+			"Index"				"2"
+			}
+		"StartReversed"
+			{
+			"DefaultValue"		"0"
+			"Index"				"3"
+			}
+		"HazardType"
+			{
+			"DefaultValue"		"0"
+			"Index"				"4"
+			}
+		"StartOpen"
+			{
+			"DefaultValue"		"0"
+			"Index"				"5"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"			"instances/BEE2/clean/items/fizzrestrictorgate/base_r.vmf"
+				"EntityCount"	"2"
+				}
+			"1"
+				{
+				"Name"			"instances/BEE2/clean/items/fizzrestrictorgate/model_r.vmf"
+				"EntityCount"	"1"
+				}
+			"bee2_base_r"		"instances/BEE2/clean/items/fizzrestrictorgate/base_r.vmf"
+			"bee2_model_r"		"instances/BEE2/clean/items/fizzrestrictorgate/model_r.vmf"
+			"bee2_static_r"		"instances/BEE2/clean/items/fizzrestrictorgate/model_r_static.vmf"
+			"bee2_base_g"		"instances/BEE2/clean/items/fizzrestrictorgate/base_g.vmf"
+			"bee2_model_g"		"instances/BEE2/clean/items/fizzrestrictorgate/model_g.vmf"
+			"bee2_static_g"		"instances/BEE2/clean/items/fizzrestrictorgate/model_g_static.vmf"
+			}
+		"TargetName"	"fizzrestrictorgate"
+		"Inputs"
+			{
+			"BEE2"
+				{
+				"Type"              "DUAL"
+				"Default_Dual"      "A"
+				"InvertVar"         "$start_enabled"
+				"Enable_Cmd"        "scr,RunScriptCode,set_a(1),0.00,-1"
+				"Disable_Cmd"       "scr,RunScriptCode,set_a(0),0.00,-1"
+				"Sec_InvertVar"     "0"
+				"Sec_Enable_Cmd"    "scr,RunScriptCode,set_b(1),0.00,-1"
+				"Sec_Disable_Cmd"   "scr,RunScriptCode,set_b(0),0.00,-1"
+				}
+			}
+		"Outputs"
+			{
+			"BEE2"
+				{
+				"Out_Activate"      "instance:out;OnUser2"
+				"Out_Deactivate"    "instance:out;OnUser1"
+				"Out_Timer_Start"   "instance:out;OnUser3"
+				"Out_Timer_Stop"    "instance:out;OnUser4"
+				}
+			}
+		"ConnectionPoints"
+			{
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 0 0"
+				"SignageOffset"		"1 1 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 2 0"
+				"SignageOffset"		"1 3 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 4 0"
+				"SignageOffset"		"1 5 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 6 0"
+				"SignageOffset"		"1 7 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 0 0"
+				"SignageOffset"		"6 1 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 2 0"
+				"SignageOffset"		"6 3 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 4 0"
+				"SignageOffset"		"6 5 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 6 0"
+				"SignageOffset"		"6 7 0"
+				"Priority"	"0"
+				}
+			}
+		"Offset"	"64 64 64"
+		}
+	}

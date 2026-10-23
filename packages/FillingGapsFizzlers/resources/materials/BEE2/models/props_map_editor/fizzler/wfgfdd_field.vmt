@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$basetexture "BEE2/models/props_map_editor/fizzler/fizzler_bounds_fade"
+$color "[1.000 0.502 0.000]"
+$translucent 1
+$model 1
+}

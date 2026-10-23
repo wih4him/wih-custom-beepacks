@@ -1,0 +1,104 @@
+"ID"		"WIH_FILLINGGAPSFIZZLERS"
+"Name"		"Filling Gaps Fizzlers"
+"Desc"		"Filling Gaps Fizzlers: five two-function fizzlers that fill the gaps between the stock Emancipation Grill and Discouragement Field. Each one is picked by the editor dropdown and swapped by input B: Portal Wiper / Portal Shield, Personnel Restrictor / Physics Gate, Solid-Matter Dissolver / Lethal Threshold Limiter, Phyzzling Portal-Grater / Soft-Reset Boundary, Fizzle-Fence / Thermo-Barrier. Each one can be wired to other items through a Fizzler Output Relay. The orange particle field matches the Physics Obliteration Field by Axo (Axo's Fizzlers), with thanks. In the editor, each function shows its own colours on a recoloured copy of FourthReaper's Force Deflection Field editor model (FR Fizzlers), with thanks."
+
+"Item"
+	{
+	"ID"	"WIH_FIZZWIPERSHIELD"
+	"Authors" "wih4him"
+	"Tags" "Fizzlers"
+	"Description"
+		{
+		"" "Portal Wiper (magenta): walk through and your open portals close; everything passes.  "
+		"" "Portal Shield (burgundy): stops portal shots and nothing else.  "
+		"" "Input A on / off, input B swaps the function; a Fizzler Output Relay on it gives an output."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"fizzwipershield"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"	"WIH_FIZZRESTRICTORGATE"
+	"Authors" "wih4him"
+	"Tags" "Fizzlers"
+	"Description"
+		{
+		"" "Personnel Restrictor (silver, gold strands): only you are stopped.  "
+		"" "Physics Gate (aquamarine, teal strands): cubes, turrets and portal shots are stopped; you and your portals pass.  "
+		"" "Input A on / off, input B swaps the function; a Fizzler Output Relay on it gives an output."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"fizzrestrictorgate"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"	"WIH_FIZZDISSOLVERLIMITER"
+	"Authors" "wih4him"
+	"Tags" "Fizzlers"
+	"Description"
+		{
+		"" "Solid-Matter Dissolver (red beams, orange sparks): lethal; cubes and turrets are fizzled.  "
+		"" "Lethal Threshold Limiter (beams over burgundy): lethal; cubes and turrets pass; portal shots are stopped.  "
+		"" "Input A on / off, input B swaps the function; a Fizzler Output Relay on it gives an output."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"fizzdissolverlimiter"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"	"WIH_FIZZGRATERRESET"
+	"Authors" "wih4him"
+	"Tags" "Fizzlers"
+	"Description"
+		{
+		"" "Phyzzling Portal-Grater (dark seafoam): cubes and turrets are stopped; walking through closes your portals.  "
+		"" "Soft-Reset Boundary (magenta, orange particles): cubes and turrets are fizzled; walking through closes your portals.  "
+		"" "Input A on / off, input B swaps the function; a Fizzler Output Relay on it gives an output."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"fizzgraterreset"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"	"WIH_FIZZFENCETHERMO"
+	"Authors" "wih4him"
+	"Tags" "Fizzlers"
+	"Description"
+		{
+		"" "Fizzle-Fence (white-blue bars): you are stopped; cubes and turrets that touch it are fizzled.  "
+		"" "Thermo-Barrier (red grate): lethal; cubes and turrets are stopped.  "
+		"" "Input A on / off, input B swaps the function; a Fizzler Output Relay on it gives an output."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"fizzfencethermo"
+			}
+		}
+	}
+
