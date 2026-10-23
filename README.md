@@ -4,7 +4,7 @@ Five two-function fizzlers for BEEmod (BEE2) and Portal 2. The "gaps" they fill 
 
 ![The ten fizzlers](images/icons.png)
 
-Each item holds two fizzlers. The editor dropdown picks which function the item starts as, input B swaps the item to its other function while you play, and input A turns the field on and off.
+Each item holds two fizzlers. The editor dropdown picks which function the item starts as, while you play, input B swaps the fizzler from its current function to its paired function and back again (see Inputs and outputs), and input A turns the field on and off.
 
 | Item | First function | Second function |
 |---|---|---|
@@ -23,7 +23,14 @@ Each item holds two fizzlers. The editor dropdown picks which function the item 
 ## Inputs and outputs
 
 - **Input A** switches the field on and off. A plain wire (from a button or an antenna, for example) goes to input A.
-- **Input B** swaps the function. Wire input B through an item that sends to input B, such as BEEmod's SR strip.
+- **Input B** swaps the fizzler from its current function to its paired function, and back again, while you play. The five pairs are:
+  - Portal Wiper and Portal Shield
+  - Personnel Restrictor and Physics Gate
+  - Solid-Matter Dissolver and Lethal Threshold Limiter
+  - Phyzzling Portal-Grater and Soft-Reset Boundary
+  - Fizzle-Fence and Thermo-Barrier
+
+  Wire input B through an item that sends to input B, such as BEEmod's SR strip.
 - **Fizzler Output Relay:** place one on a fizzler to wire that fizzler to other items. The relay's output is on while the field is on. While the field is on, something crossing the field switches the relay's output off for a moment; each item's description lists which crossings count. The relay's Timer sets how long that moment lasts, and its countdown sign counts down while the relay's output is off.
 
 ## Install
