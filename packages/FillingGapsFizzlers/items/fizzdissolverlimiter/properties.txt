@@ -13,7 +13,7 @@
 		""	""
 		""	"Fizzler Output Relay: place one on this fizzler to wire it to other items. The output is on while the field is on. While it is on, a cube or turret touching the Solid-Matter Dissolver (which fizzles it) or crossing the Lethal Threshold Limiter switches the output off for a moment. The relay's Timer sets how long: 3, 4 and 5 give 0.3, 0.4 and 0.5 seconds, 6 gives 1 second, and every step after that adds one more second; none means it never switches off this way. With Start Enabled unticked it never switches off this way either. The relay's countdown sign counts down while the output is off."
 		""	""
-		""	"With Start Reversed unticked, gel passes through both functions. The orange particle field matches the Physics Obliteration Field by Axo (Axo's Fizzlers), with thanks."
+		""	"With Start Reversed unticked, gel passes through both functions."
 		""	""
 		""	"In the editor, each function shows its own colours on a recoloured copy of FourthReaper's Force Deflection Field editor model (FR Fizzlers), with thanks."
 		}

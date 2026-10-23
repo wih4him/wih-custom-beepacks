@@ -25,5 +25,6 @@ Scope: this licence covers wih4him's own code in this repository: the VScripts (
 item configuration (info.txt, editoritems.txt, properties.txt, vbsp_config.cfg), the
 instances (.vmf) and wih4him's material files (.vmt), including the 20 editor tints
 (wfgf*.vmt). It does NOT cover the 16 fizzfencethermo_{barsf,barsf2,grate,grate2}_*.vmt
-materials (FourthReaper's Force Deflection Field material, recoloured), artwork (see
-LICENSE-ASSETS), or any other third-party file listed in CREDITS.md.
+materials (FourthReaper's Force Deflection Field material, recoloured), the 24
+fizzgraterreset_{ggrd,gaf,gbf,sbl}_*.vmt and fizzwipershield_{wcf,wdf}_*.vmt materials (animation timing
+after Felix Griffin's Physics Repulsion Field material), artwork (see LICENSE-ASSETS), or any other third-party file listed in CREDITS.md.

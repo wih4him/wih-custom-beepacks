@@ -55,13 +55,13 @@ How these ten compare with the other fields in Portal 2 and the community's pack
 
 ## Credits
 
-The editor models and the Fizzle-Fence / Thermo-Barrier material are FourthReaper's Force Deflection Field model and material, recoloured. The palette icons are drawn over BEEmod's stock fizzler icon. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
+The editor models and the Fizzle-Fence / Thermo-Barrier material are FourthReaper's Force Deflection Field model and material, recoloured. The moving layers of the Portal Wiper, the Phyzzling Portal-Grater and the Soft-Reset Boundary use the animation timing of Felix Griffin's Physics Repulsion Field. The palette icons are drawn over BEEmod's stock fizzler icon. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
 
 ## Licence
 
 - **Code** (VScripts, item configuration, instances): MIT, see [LICENSE](LICENSE). © 2026 William Isaiah Hardwick.
 - **Original artwork** (field textures, the chart, and wih4him's additions to the icons): CC BY 4.0, see [LICENSE-ASSETS](LICENSE-ASSETS).
-- **Not covered:** Valve-derived files (models, materials, particles, sounds) remain Valve's property, included for free, non-commercial use with Portal 2. FourthReaper's editor models and material remain FourthReaper's. BEEmod's selection box and base icon remain BEEmod's. [CREDITS.md](CREDITS.md) lists which files these are.
+- **Not covered:** Valve-derived files (models, materials, particles, sounds) remain Valve's property, included for free, non-commercial use with Portal 2. FourthReaper's editor models and material remain FourthReaper's. The 24 materials that use Felix Griffin's animation timing are credited to him and left out of the MIT licence. BEEmod's selection box and base icon remain BEEmod's. [CREDITS.md](CREDITS.md) lists which files these are.
 
 Assets may be redistributed as part of compiled Portal 2 maps.
 
