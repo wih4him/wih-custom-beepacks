@@ -1,5 +1,7 @@
 # Filling Gaps Fizzlers
 
+> **Download:** [WIH_FillingGapsFizzlers.bee_pack](https://github.com/wih4him/wih-custom-beepacks/releases/latest/download/WIH_FillingGapsFizzlers.bee_pack). Put that one file in BEEmod's `packages` folder as it is (don't unzip it) and restart BEEmod. Don't use the green **Code > Download ZIP** button: that zip is the source, not a package.
+
 Five two-function fizzlers for BEEmod (BEE2) and Portal 2. The "gaps" they fill are the remaining combinations of basic custom fizzler types, based on all the custom fizzlers the community has made so far. Together, their ten fizzlers complete the relevant combinations in the original chart (see [Where they fit](#where-they-fit)).
 
 ![The ten fizzlers](images/icons.png)
@@ -35,8 +37,8 @@ Each item holds two fizzlers. The editor dropdown picks which function the item 
 
 ## Install
 
-1. Download `WIH_FillingGapsFizzlers.bee_pack` from the Releases page. The unpacked contents are in `packages/FillingGapsFizzlers/`.
-2. Put the `.bee_pack` file in BEEmod's `packages` folder.
+1. Download [`WIH_FillingGapsFizzlers.bee_pack`](https://github.com/wih4him/wih-custom-beepacks/releases/latest/download/WIH_FillingGapsFizzlers.bee_pack) from the [Releases page](https://github.com/wih4him/wih-custom-beepacks/releases/latest). The green Code > Download ZIP button gives the source instead, which BEEmod can't load as it is. The unpacked contents are in `packages/FillingGapsFizzlers/`.
+2. Put the `.bee_pack` file in BEEmod's `packages` folder as it is. Don't unzip it.
 3. Restart BEEmod. The five items have the tag "Fizzlers".
 
 Made and tested with BEEmod 4.46.1. The Fizzler Output Relay is one of BEEmod's own standard packages. Portal 2 is required.
