@@ -4,7 +4,7 @@ Five two-function fizzlers for BEEmod (BEE2) and Portal 2. The "gaps" they fill 
 
 ![The ten fizzlers](images/icons.png)
 
-Each item holds two fizzlers. The editor dropdown picks which function the item starts as, while you play, input B swaps the fizzler from its current function to its paired function and back again (see Inputs and outputs), and input A turns the field on and off.
+Each item holds two fizzlers. The editor dropdown picks which function the item starts as. While you play, input B swaps the fizzler from its current function to its paired function and back again (see Inputs and outputs), and input A turns the field on and off.
 
 | Item | First function | Second function |
 |---|---|---|
