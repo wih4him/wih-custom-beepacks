@@ -6,13 +6,16 @@ wih4him's original artwork in this repository is licensed under the Creative Com
 Attribution 4.0 International licence (CC BY 4.0), reproduced in full below.
 Attribution: "Filling Gaps Fizzlers by wih4him".
 
-Covered (wih4him's original art):
-- images/icons.png
-- packages/FillingGapsFizzlers/resources/BEE2/items/clean/*.png (palette icons)
-- packages/FillingGapsFizzlers/resources/materials/models/props_map_editor/palette/clean/*.vtf (palette icons)
-- packages/FillingGapsFizzlers/resources/materials/wih/fizz/*.vtf (field textures)
+Covered:
+- packages/FillingGapsFizzlers/resources/materials/wih/fizz/*.vtf (the field textures),
+  EXCEPT fgf_noise_fdf_half.vtf (Valve's fizzler_noise shifted by half; Valve's)
+- images/fields-chart.png
+- The palette icons: packages/FillingGapsFizzlers/resources/BEE2/items/clean/*.png,
+  packages/FillingGapsFizzlers/resources/materials/models/props_map_editor/palette/clean/*.vtf
+  and images/icons.png. For these, this licence covers wih4him's additions only; the
+  underlying fizzler icon is BEEmod's / Valve's.
 
-Not covered: the Valve-derived and FourthReaper files listed in CREDITS.md.
+Not covered: the Valve, FourthReaper and BEEmod files listed in CREDITS.md.
 
 ==============================================================================
 

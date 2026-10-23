@@ -38,15 +38,21 @@ Made and tested with BEEmod 4.46.1. The Fizzler Output Relay is one of BEEmod's 
 
 - Start Reversed's glow uses the engine's dynamic lights, two per fizzler. Portal 2 draws at most 32 at once, so a map with more than 16 glowing fizzlers will lose some of the glow.
 
+## Where they fit
+
+How these ten compare with the other fields in Portal 2 and the community's packages (what each lets through, by whom, in which package):
+
+![The Fields chart](images/fields-chart.png)
+
 ## Credits
 
-The editor models are FourthReaper's Force Deflection Field model, recoloured. The pack is inspired by Axo's fizzler work. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
+The editor models and the Fizzle-Fence / Thermo-Barrier material are FourthReaper's Force Deflection Field model and material, recoloured. The palette icons are drawn over BEEmod's stock fizzler icon. The pack is inspired by Axo's fizzler work. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
 
 ## Licence
 
 - **Code** (VScripts, item configuration, instances): MIT, see [LICENSE](LICENSE). © 2026 William Isaiah Hardwick.
-- **Original artwork** (icons and field textures): CC BY 4.0, see [LICENSE-ASSETS](LICENSE-ASSETS).
-- **Not covered:** Valve-derived files (models, materials, particles, sounds) remain Valve's property, included for free, non-commercial use with Portal 2. FourthReaper's editor models remain FourthReaper's. [CREDITS.md](CREDITS.md) lists which files these are.
+- **Original artwork** (field textures, the chart, and wih4him's additions to the icons): CC BY 4.0, see [LICENSE-ASSETS](LICENSE-ASSETS).
+- **Not covered:** Valve-derived files (models, materials, particles, sounds) remain Valve's property, included for free, non-commercial use with Portal 2. FourthReaper's editor models and material remain FourthReaper's. BEEmod's selection box and base icon remain BEEmod's. [CREDITS.md](CREDITS.md) lists which files these are.
 
 Assets may be redistributed as part of compiled Portal 2 maps.
 

@@ -21,7 +21,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-Scope: this licence covers wih4him's own code in this repository: the VScripts (.nut),
-the item configuration (info.txt, editoritems.txt, properties.txt, vbsp_config.cfg) and
-the instances (.vmf). It does not cover artwork (see LICENSE-ASSETS) or the third-party
-files listed in CREDITS.md.
+Scope: this licence covers wih4him's own code in this repository: the VScripts (.nut), the
+item configuration (info.txt, editoritems.txt, properties.txt, vbsp_config.cfg), the
+instances (.vmf) and wih4him's material files (.vmt), including the 20 editor tints
+(wfgf*.vmt). It does NOT cover the 16 fizzfencethermo_{barsf,barsf2,grate,grate2}_*.vmt
+materials (FourthReaper's Force Deflection Field material, recoloured), artwork (see
+LICENSE-ASSETS), or any other third-party file listed in CREDITS.md.
