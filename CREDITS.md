@@ -2,7 +2,6 @@
 
 - **Filling Gaps Fizzlers** by wih4him.
 - **FourthReaper:** the editor models are recoloured copies of FourthReaper's Force Deflection Field editor model, and the Fizzle-Fence's bars and the Thermo-Barrier's grate use his Force Deflection Field material, recoloured. Both come from FourthReaper's Fizzlers (FR Fizzlers), one of BEEmod's own packages. With thanks.
-- **Axo (AxoLabs):** these fizzlers were inspired by Axo's fizzler work ([AxoLabs/BEE2-Axos-Packages](https://github.com/AxoLabs/BEE2-Axos-Packages)). Axo's Fizzlers showed what custom fizzlers in BEEmod could be, and this pack owes a real debt to that example. The orange particle field of the Soft-Reset Boundary and the Solid-Matter Dissolver's sparks match the look of Axo's Physics Obliteration Field. These fizzlers are similar in function and form to Axo's, but contain none of Axo's original code. Thank you, Axo.
 - **The orange particle** itself is Valve's own Emancipation Grill particle (`portal_cleanser`) from Portal 2, recoloured orange. The Thermo-Barrier's antiphase noise is Valve's `fizzler_noise` texture shifted by half.
 - **The palette icons** are drawn over BEEmod's stock fizzler icon (a render of Valve's fizzler model).
 - **BEEmod** (BEE2.4) by the BEEmod team: the item format, the Fizzler Output Relay and the SR strip these items work with.

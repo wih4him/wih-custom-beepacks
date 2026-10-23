@@ -46,7 +46,7 @@ How these ten compare with the other fields in Portal 2 and the community's pack
 
 ## Credits
 
-The editor models and the Fizzle-Fence / Thermo-Barrier material are FourthReaper's Force Deflection Field model and material, recoloured. The palette icons are drawn over BEEmod's stock fizzler icon. The pack is inspired by Axo's fizzler work. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
+The editor models and the Fizzle-Fence / Thermo-Barrier material are FourthReaper's Force Deflection Field model and material, recoloured. The palette icons are drawn over BEEmod's stock fizzler icon. The orange particle is Valve's own, recoloured. See [CREDITS.md](CREDITS.md) for the full credits and for which licence covers which files.
 
 ## Licence
 
