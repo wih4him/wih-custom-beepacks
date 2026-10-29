@@ -1,0 +1,117 @@
+UnlitGeneric
+{
+$basetexture "wih/fizz/fgf_1_3_wisp"
+$additive 1
+$translucent 1
+$nocull 1
+$color "[0.40 0.06 0.65]"
+$alpha 0
+"%keywords" Portal2
+$t 0
+$cyc 0
+$slot 0
+$local 0
+$x 0
+$xc 0
+$ax 0
+$b 0
+$trans "[0 0 0]"
+$scl "[1 0.04761905 1]"
+$ctr "[0 0 0]"
+Proxies
+{
+CurrentTime
+{
+resultVar $t
+}
+Multiply
+{
+srcVar1 $t
+srcVar2 0.0002976190
+resultVar $cyc
+}
+Frac
+{
+srcVar1 $cyc
+resultVar $cyc
+}
+Multiply
+{
+srcVar1 $cyc
+srcVar2 21
+resultVar $cyc
+}
+Int
+{
+srcVar1 $cyc
+resultVar $slot
+}
+Subtract
+{
+srcVar1 $cyc
+srcVar2 $slot
+resultVar $local
+}
+Multiply
+{
+srcVar1 $local
+srcVar2 4.324324
+resultVar $x
+}
+Multiply
+{
+srcVar1 $x
+srcVar2 2
+resultVar $ax
+}
+Subtract
+{
+srcVar1 $ax
+srcVar2 1
+resultVar $ax
+}
+Abs
+{
+srcVar1 $ax
+resultVar $ax
+}
+Subtract
+{
+srcVar1 1
+srcVar2 $ax
+resultVar $b
+}
+Clamp
+{
+srcVar1 $b
+min 0
+max 1
+resultVar $alpha
+}
+Subtract
+{
+srcVar1 $x
+srcVar2 0.5
+resultVar $xc
+}
+Multiply
+{
+srcVar1 $xc
+srcVar2 -1.3600
+resultVar "$trans[0]"
+}
+Multiply
+{
+srcVar1 $slot
+srcVar2 0.04761905
+resultVar "$trans[1]"
+}
+TextureTransform
+{
+translateVar $trans
+scaleVar $scl
+centerVar $ctr
+resultVar $basetexturetransform
+}
+}
+}

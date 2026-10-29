@@ -1,0 +1,25 @@
+"Properties"
+	{
+	"Authors"		"wih4him"
+	"Description"
+		{
+		""	"One fizzler with two functions. The editor dropdown picks the one it starts as; input B swaps it to the other while you play, and input A switches it on and off. Both fields slowly drift through a few nearby shades and back."
+		""	""
+		""	"Portal Wiper (magenta, with a fractal pattern): walk through it and your open portals close, in co-op the other player's too. You, cubes, turrets and portal shots pass."
+		""	""
+		""	"Portal Shield (burgundy, with slow violet swirls and a rare crossing wisp): it stops portal shots and nothing else."
+		""	""
+		""	"Start Enabled: the field is on when the map starts; unticked, it starts off and input A turns it on. Start Reversed: the field also stops gel, and glows in its own colour, while it is on. Start Open: pellets bounce off either function while it is on."
+		""	""
+		""	"Fizzler Output Relay: place one on this fizzler to wire it to other items. The output is on while the field is on. While it is on, you or a cube or turret crossing either function switches the output off for a moment. The relay's Timer sets how long: 3, 4 and 5 give 0.3, 0.4 and 0.5 seconds, 6 gives 1 second, and every step after that adds one more second; none means it never switches off this way. With Start Enabled unticked it never switches off this way either. The relay's countdown sign counts down while the output is off."
+		""	""
+		""	"With Start Reversed unticked, gel passes through both functions. The Portal Wiper's fractal pattern moves with the timing of Felix Griffin's Physics Repulsion Field, with thanks."
+		""	""
+		""	"In the editor, each function shows its own colours on a recoloured copy of FourthReaper's Force Deflection Field editor model (FR Fizzlers), with thanks."
+		}
+	"Icon"
+		{
+		"0"	"clean/fizzwipershield_1_3_w.png"
+		"1"	"clean/fizzwipershield_1_3_s.png"
+		}
+	}

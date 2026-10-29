@@ -1,0 +1,81 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black"
+}
+entity
+{
+	"id" "2"
+	"classname" "filter_multi"
+	"targetname" "@wih_fgf_1_3_objs"
+	"filtertype" "1"
+	"negated" "0"
+	"filter01" "@wih_fgf_1_3_objs1"
+	"filter02" "@wih_fgf_1_3_objs2"
+	"filter03" "@wih_fgf_1_3_objs3"
+	"origin" "0 0 0"
+}
+entity
+{
+	"id" "3"
+	"classname" "filter_activator_class"
+	"targetname" "@wih_fgf_1_3_objs1"
+	"filterclass" "prop_weighted_cube"
+	"negated" "0"
+	"origin" "16 0 0"
+}
+entity
+{
+	"id" "4"
+	"classname" "filter_activator_class"
+	"targetname" "@wih_fgf_1_3_objs2"
+	"filterclass" "prop_monster_box"
+	"negated" "0"
+	"origin" "32 0 0"
+}
+entity
+{
+	"id" "5"
+	"classname" "filter_activator_class"
+	"targetname" "@wih_fgf_1_3_objs3"
+	"filterclass" "npc_portal_turret_floor"
+	"negated" "0"
+	"origin" "48 0 0"
+}
+entity
+{
+	"id" "20"
+	"classname" "filter_activator_class"
+	"targetname" "@wih_fgf_1_3_pellets"
+	"filterclass" "prop_energy_ball"
+	"negated" "0"
+	"origin" "0 16 0"
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

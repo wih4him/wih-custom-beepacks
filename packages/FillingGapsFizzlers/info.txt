@@ -1,10 +1,10 @@
-"ID"		"U_WIH_FILLINGGAPSFIZZLERS"
+"ID"		"U_WIH_FILLINGGAPSFIZZLERS_1_3"
 "Name"		"Filling Gaps Fizzlers"
 "Desc"		"Filling Gaps Fizzlers: five two-function fizzlers that fill the gaps between the stock Emancipation Grill and Discouragement Field. Each one is picked by the editor dropdown and swapped by input B: Portal Wiper / Portal Shield, Personnel Restrictor / Physics Gate, Solid-Matter Dissolver / Lethal Threshold Limiter, Phyzzling Portal-Grater / Soft-Reset Boundary, Fizzle-Fence / Thermo-Barrier. Each one can be wired to other items through a Fizzler Output Relay. The moving layers of the Portal Wiper, the Phyzzling Portal-Grater and the Soft-Reset Boundary move with the timing of Felix Griffin's Physics Repulsion Field, with thanks. In the editor, each function shows its own colours on a recoloured copy of FourthReaper's Force Deflection Field editor model (FR Fizzlers), with thanks."
 
 "Item"
 	{
-	"ID"	"WIH_FIZZWIPERSHIELD"
+	"ID"	"WIH_FIZZWIPERSHIELD_1_3"
 	"Authors" "wih4him"
 	"Tags" "Fizzlers"
 	"Description"
@@ -17,14 +17,14 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"fizzwipershield"
+			"BEE2_CLEAN"	"fizzwipershield_1_3"
 			}
 		}
 	}
 
 "Item"
 	{
-	"ID"	"WIH_FIZZRESTRICTORGATE"
+	"ID"	"WIH_FIZZRESTRICTORGATE_1_3"
 	"Authors" "wih4him"
 	"Tags" "Fizzlers"
 	"Description"
@@ -37,14 +37,14 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"fizzrestrictorgate"
+			"BEE2_CLEAN"	"fizzrestrictorgate_1_3"
 			}
 		}
 	}
 
 "Item"
 	{
-	"ID"	"WIH_FIZZDISSOLVERLIMITER"
+	"ID"	"WIH_FIZZDISSOLVERLIMITER_1_3"
 	"Authors" "wih4him"
 	"Tags" "Fizzlers"
 	"Description"
@@ -57,14 +57,14 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"fizzdissolverlimiter"
+			"BEE2_CLEAN"	"fizzdissolverlimiter_1_3"
 			}
 		}
 	}
 
 "Item"
 	{
-	"ID"	"WIH_FIZZGRATERRESET"
+	"ID"	"WIH_FIZZGRATERRESET_1_3"
 	"Authors" "wih4him"
 	"Tags" "Fizzlers"
 	"Description"
@@ -77,14 +77,14 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"fizzgraterreset"
+			"BEE2_CLEAN"	"fizzgraterreset_1_3"
 			}
 		}
 	}
 
 "Item"
 	{
-	"ID"	"WIH_FIZZFENCETHERMO"
+	"ID"	"WIH_FIZZFENCETHERMO_1_3"
 	"Authors" "wih4him"
 	"Tags" "Fizzlers"
 	"Description"
@@ -97,7 +97,7 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"fizzfencethermo"
+			"BEE2_CLEAN"	"fizzfencethermo_1_3"
 			}
 		}
 	}

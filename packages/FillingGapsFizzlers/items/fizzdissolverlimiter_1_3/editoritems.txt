@@ -1,0 +1,182 @@
+"Item"
+	{
+	"Type"			"WIH_FIZZDISSOLVERLIMITER_1_3"
+	"ItemClass"		"ItemBarrierHazard"
+	"Editor"
+		{
+		"SubTypeProperty" "HazardType"
+		"SubType"
+			{
+			"Name"  "Solid-Matter Dissolver"
+			"Model"	"bee2/clean/wih_fillinggaps13face_dld.mdl"
+			"Palette"
+				{
+				"Tooltip"		"Solid-Matter Dissolver"
+				"Image"			"palette/clean/fizzdissolverlimiter_1_3_d"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Lethal Threshold Limiter"
+			"Model"	"bee2/clean/wih_fillinggaps13face_dll.mdl"
+			"Palette"
+				{
+				"Tooltip"		"Lethal Threshold Limiter"
+				"Image"			"palette/clean/fizzdissolverlimiter_1_3_l"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"MovementHandle"		"HANDLE_6_POSITIONS"
+		"DesiredFacing"			"DESIRES_HORIZONTAL"
+		}
+	"Properties"
+		{
+		"ConnectionCount"
+			{
+			"DefaultValue"		"0"
+			"Index"				"1"
+			}
+		"StartEnabled"
+			{
+			"DefaultValue"		"1"
+			"Index"				"2"
+			}
+		"StartReversed"
+			{
+			"DefaultValue"		"0"
+			"Index"				"3"
+			}
+		"HazardType"
+			{
+			"DefaultValue"		"0"
+			"Index"				"4"
+			}
+		"StartOpen"
+			{
+			"DefaultValue"		"0"
+			"Index"				"5"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"			"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/base_d.vmf"
+				"EntityCount"	"3"
+				}
+			"1"
+				{
+				"Name"			"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/model_d.vmf"
+				"EntityCount"	"1"
+				}
+			"bee2_base_d"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/base_d.vmf"
+			"bee2_model_d"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/model_d.vmf"
+			"bee2_static_d"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/model_d_static.vmf"
+			"bee2_mid_d"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/mid_d.vmf"
+			"bee2_base_l"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/base_l.vmf"
+			"bee2_model_l"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/model_l.vmf"
+			"bee2_static_l"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/model_l_static.vmf"
+			"bee2_mid_l"		"instances/BEE2/clean/items/fizzdissolverlimiter_1_3/mid_l.vmf"
+			}
+		"TargetName"	"fizzdissolverlimiter_1_3"
+		"Inputs"
+			{
+			"BEE2"
+				{
+				"Type"              "DUAL"
+				"Default_Dual"      "A"
+				"InvertVar"         "$start_enabled"
+				"Enable_Cmd"        "scr,RunScriptCode,set_a(1),0.00,-1"
+				"Disable_Cmd"       "scr,RunScriptCode,set_a(0),0.00,-1"
+				"Sec_InvertVar"     "0"
+				"Sec_Enable_Cmd"    "scr,RunScriptCode,set_b(1),0.00,-1"
+				"Sec_Disable_Cmd"   "scr,RunScriptCode,set_b(0),0.00,-1"
+				}
+			}
+		"Outputs"
+			{
+			"BEE2"
+				{
+				"Out_Activate"      "instance:out;OnUser2"
+				"Out_Deactivate"    "instance:out;OnUser1"
+				"Out_Timer_Start"   "instance:out;OnUser3"
+				"Out_Timer_Stop"    "instance:out;OnUser4"
+				}
+			}
+		"ConnectionPoints"
+			{
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 0 0"
+				"SignageOffset"		"1 1 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 2 0"
+				"SignageOffset"		"1 3 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 4 0"
+				"SignageOffset"		"1 5 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"2 6 0"
+				"SignageOffset"		"1 7 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 0 0"
+				"SignageOffset"		"6 1 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 2 0"
+				"SignageOffset"		"6 3 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 4 0"
+				"SignageOffset"		"6 5 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"5 6 0"
+				"SignageOffset"		"6 7 0"
+				"Priority"	"0"
+				}
+			}
+		"Offset"	"64 64 64"
+		}
+	}

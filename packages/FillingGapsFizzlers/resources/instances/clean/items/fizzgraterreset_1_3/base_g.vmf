@@ -1,0 +1,142 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_script"
+	"origin" "0 0 32"
+	"targetname" "scr"
+	"thinkfunction" "Think"
+	"vscripts" "wih/fizzgraterreset_1_3_mode_g.nut"
+	connections
+	{
+		"OnUser1" "gel,Disable,,0,-1"
+		"OnUser1" "fxg,Disable,,0,-1"
+		"OnUser1" "fxaf,Disable,,0,-1"
+		"OnUser1" "fxbf,Disable,,0,-1"
+		"OnUser1" "fxgrd,Disable,,0,-1"
+		"OnUser1" "vclip,Disable,,0,-1"
+		"OnUser1" "fxs,Disable,,0,-1"
+		"OnUser1" "fxbl,Disable,,0,-1"
+		"OnUser1" "diss,Disable,,0,-1"
+		"OnUser1" "wipe,Disable,,0,-1"
+		"OnUser1" "pfx,Stop,,0,-1"
+		"OnUser1" "mdl,SetAnimation,close,0,-1"
+		"OnUser1" "glow,TurnOff,,0,-1"
+		"OnUser2" "fxs,Disable,,0,-1"
+		"OnUser2" "fxbl,Disable,,0,-1"
+		"OnUser2" "diss,Disable,,0,-1"
+		"OnUser2" "pfx,Stop,,0,-1"
+		"OnUser2" "fxg,Enable,,0.01,-1"
+		"OnUser2" "fxaf,Enable,,0.01,-1"
+		"OnUser2" "fxbf,Enable,,0.01,-1"
+		"OnUser2" "fxgrd,Enable,,0.01,-1"
+		"OnUser2" "vclip,Enable,,0.01,-1"
+		"OnUser2" "wipe,Enable,,0.01,-1"
+		"OnUser2" "mdl,SetAnimation,open,0,-1"
+		"OnUser2" "mdl,Color,40 150 120,0,-1"
+		"OnUser2" "glow,Color,60 190 150,0,-1"
+		"OnUser2" "glowrev,Test,,0,-1"
+		"OnUser3" "fxg,Disable,,0,-1"
+		"OnUser3" "fxaf,Disable,,0,-1"
+		"OnUser3" "fxbf,Disable,,0,-1"
+		"OnUser3" "fxgrd,Disable,,0,-1"
+		"OnUser3" "vclip,Disable,,0,-1"
+		"OnUser3" "fxs,Enable,,0.01,-1"
+		"OnUser3" "fxbl,Enable,,0.01,-1"
+		"OnUser3" "diss,Enable,,0.01,-1"
+		"OnUser3" "wipe,Enable,,0.01,-1"
+		"OnUser3" "pfx,Start,,0.01,-1"
+		"OnUser3" "mdl,SetAnimation,open,0,-1"
+		"OnUser3" "mdl,Color,200 60 180,0,-1"
+		"OnUser3" "glow,Color,200 60 180,0,-1"
+		"OnUser3" "glowrev,Test,,0,-1"
+	}
+}
+entity
+{
+	"id" "3"
+	"InitialValue" "$start_enabled"
+	"classname" "logic_branch"
+	"origin" "0 0 48"
+	"targetname" "vclipbr"
+	connections
+	{
+		"OnFalse" "vclip,Disable,,0.05,-1"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "logic_auto"
+	"origin" "0 0 56"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "vclipbr,Test,,0,-1"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
+entity
+{
+	"id" "5"
+	"InitialValue" "$start_reversed"
+	"classname" "logic_branch"
+	"origin" "0 0 48"
+	"targetname" "glowrev"
+	connections
+	{
+		"OnTrue" "gel,Enable,,0.01,-1"
+		"OnTrue" "glow,TurnOn,,0,-1"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "logic_relay"
+	"targetname" "out"
+	"spawnflags" "0"
+	"origin" "0 0 40"
+}
+entity
+{
+	"id" "7"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	"origin" "0 0 64"
+	connections
+	{
+		"OnMapSpawn" "scr,RunScriptCode,cfg_t($trip_t),0,-1"
+		"OnMapSpawn" "scr,RunScriptCode,cfg_se($start_enabled),0.02,-1"
+	}
+}

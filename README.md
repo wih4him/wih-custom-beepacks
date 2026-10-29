@@ -45,6 +45,7 @@ Made and tested with BEEmod 4.46.1. The Fizzler Output Relay is one of BEEmod's 
 
 ## Good to know
 
+- The Portal Wiper, the Phyzzling Portal-Grater and the Soft-Reset Boundary close your portals the way Portal 2's own Emancipation Grill does, so the crosshair empties too.
 - Start Reversed's glow uses the engine's dynamic lights, two per fizzler. Portal 2 draws at most 32 at once, so a map with more than 16 glowing fizzlers will lose some of the glow.
 
 ## Where they fit

@@ -1,0 +1,25 @@
+"Properties"
+	{
+	"Authors"		"wih4him"
+	"Description"
+		{
+		""	"One fizzler with two functions. The editor dropdown picks the one it starts as; input B swaps it to the other while you play, and input A switches it on and off."
+		""	""
+		""	"Phyzzling Portal-Grater (dark seafoam, with fractal spirals and a sliding mesh): cubes and turrets are stopped at the field, walking through it closes your open portals, and you and your portal shots pass."
+		""	""
+		""	"Soft-Reset Boundary (magenta, over an orange particle field): cubes and turrets are fizzled, walking through it closes your open portals, and you and your portal shots pass."
+		""	""
+		""	"Start Enabled: the field is on when the map starts; unticked, it starts off and input A turns it on. Start Reversed: the field also stops gel, and glows in its own colour, while it is on. Start Open: no change here: both functions already stop or destroy pellets."
+		""	""
+		""	"Fizzler Output Relay: place one on this fizzler to wire it to other items. The output is on while the field is on. While it is on, you crossing either function switches the output off for a moment. The relay's Timer sets how long: 3, 4 and 5 give 0.3, 0.4 and 0.5 seconds, 6 gives 1 second, and every step after that adds one more second; none means it never switches off this way. With Start Enabled unticked it never switches off this way either. The relay's countdown sign counts down while the output is off."
+		""	""
+		""	"With Start Reversed unticked, gel passes through both functions. The moving layers of the Phyzzling Portal-Grater (its sliding mesh and fractal spirals) and of the Soft-Reset Boundary move with the timing of Felix Griffin's Physics Repulsion Field, with thanks."
+		""	""
+		""	"In the editor, each function shows its own colours on a recoloured copy of FourthReaper's Force Deflection Field editor model (FR Fizzlers), with thanks."
+		}
+	"Icon"
+		{
+		"0"	"clean/fizzgraterreset_1_3_g.png"
+		"1"	"clean/fizzgraterreset_1_3_s.png"
+		}
+	}

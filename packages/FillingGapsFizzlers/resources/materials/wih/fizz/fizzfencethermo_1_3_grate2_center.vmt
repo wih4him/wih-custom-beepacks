@@ -1,0 +1,31 @@
+SolidEnergy
+	{
+	$basetexture "BEE2/fizz/fizzler_ripple_grid"
+	$flowmap "effects/fizzler_flow"
+	$flowbounds "effects/fizzler_bounds_center"
+	$FLOW_NOISE_TEXTURE "wih/fizz/fgf_1_3_noise_fdf_half"
+	$FLOW_UVSCROLLDISTANCE "0"
+	$FLOW_TIMEINTERVALINSECONDS "4"
+	$FLOW_NOISE_SCALE 1.2
+	$FLOW_LERPEXP 5
+	$FLOW_WORLDUVSCALE 0.008
+	$FLOW_NORMALUVSCALE 0.015
+	$FLOW_COLOR "[0.3 0.04 0.04]"
+	$FLOW_VORTEX_COLOR "[10 1.333 1.333]"
+	$surfaceprop glass
+	"%keywords" Portal2
+	$translucent 1
+	$additive 1
+	$FLOW_VORTEX_POS1 "[-160 64 64]"
+$FLOW_VORTEX_SIZE 35
+	$intensitynoise 1
+	$totalintensity 1
+
+	$outputintensity 1.7
+	Proxies
+		{
+		FizzlerVortex
+			{
+			}
+		}
+	}
